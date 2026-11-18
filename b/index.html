@@ -870,7 +870,7 @@ fieldset.field{border:0;margin:0;padding:0;min-width:0}
     if (!reduce){ tape.classList.add('fast'); setTimeout(() => tape.classList.remove('fast'), 1000); }
   });
 
-  /* #side-b opens the tape on Side B (brucethepianoman.com lands here) */
+  /* #side-b opens the tape on Side B (linked from brucethepianoman.com) */
   const showB = () => {
     if (!tape.classList.contains('flipped')) btn.click();
     state.scrollIntoView({block:'center', behavior: reduce ? 'auto' : 'smooth'});
