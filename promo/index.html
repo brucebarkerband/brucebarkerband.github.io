@@ -22,12 +22,12 @@
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%}
 body{background:radial-gradient(110% 55% at 50% 0%,#3a1371,transparent 70%),var(--ink);color:var(--paper);font:17px/1.55 "DM Sans",system-ui,-apple-system,sans-serif;min-height:100vh;padding:0 max(16px,env(safe-area-inset-left)) 0 max(16px,env(safe-area-inset-right))}
-.wrap{max-width:560px;margin:0 auto;padding:28px 0 56px}
+.wrap{max-width:560px;margin:0 auto;padding:22px 0 56px}
 .k{font-family:VT323,monospace;font-size:21px;letter-spacing:.16em;color:var(--cyan);text-align:center}
 h1{font-family:Righteous,system-ui,sans-serif;font-weight:400;font-size:clamp(34px,9.5vw,52px);line-height:1;text-align:center;margin:.2em 0 .15em}
 h1 em{font-style:normal;color:var(--pink);text-shadow:0 0 22px #ff3fa466}
 .sub{text-align:center;color:var(--mute);font-size:16px}
-.player{margin:22px auto 0;width:min(100%,360px);border-radius:18px;overflow:hidden;background:#000;box-shadow:0 18px 50px #0009,0 0 0 1px var(--line)}
+.player{margin:18px auto 0;width:min(100%,340px);border-radius:18px;overflow:hidden;background:#000;box-shadow:0 18px 50px #0009,0 0 0 1px var(--line)}
 .player video{display:block;width:100%;aspect-ratio:9/16;background:#000}
 .btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:58px;border:0;border-radius:16px;font:800 19px/1.2 "DM Sans",system-ui,sans-serif;text-decoration:none;cursor:pointer;padding:14px 18px;text-align:center}
 .btn.main{background:var(--pink);color:#22041a;box-shadow:0 8px 28px #ff3fa455;margin-top:22px}
@@ -68,11 +68,11 @@ footer{margin-top:48px;text-align:center;color:#8f84b5;font-size:14px}
   <h1>Bruce Barker Band<br>at the <em>Moose Lodge</em></h1>
   <p class="sub">Full band, all 80s and 90s, raising money for Clinton Central High School Athletics.</p>
 
-  <div class="player"><video id="vid" controls playsinline preload="metadata" poster="poster-vertical.jpg" src="bruce-barker-band-dec12-vertical.mp4"></video></div>
-
   <button class="btn main" id="shareV" type="button" data-file="bruce-barker-band-dec12-vertical.mp4" data-name="Bruce Barker Band Dec 12.mp4">📲 Share or save this video</button>
   <div class="bar" id="barV"><i></i></div>
   <p class="note" id="noteV">Opens your phone's share menu: Facebook, Instagram, Messages or Save Video.</p>
+
+  <div class="player"><video id="vid" controls playsinline preload="metadata" poster="poster-vertical.jpg" src="bruce-barker-band-dec12-vertical.mp4"></video></div>
 
   <div class="row">
     <a class="btn alt" id="fb" href="#" target="_blank" rel="noopener">Share link on Facebook</a>
@@ -80,7 +80,7 @@ footer{margin-top:48px;text-align:center;color:#8f84b5;font-size:14px}
   </div>
 
   <h2><small>Easiest way</small>Post it in 3 steps</h2>
-  <p class="lead">Tap the pink button above, tap <b>Save Video</b>, then follow the steps for where you want to post. A video you post yourself reaches more people than a shared link.</p>
+  <p class="lead">Tap the pink button at the top, tap <b>Save Video</b>, then follow the steps for where you want to post. A video you post yourself reaches more people than a shared link.</p>
 
   <details open>
     <summary><span class="ic" style="background:#1877f2">f</span>Facebook post</summary>
